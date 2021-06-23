@@ -7,6 +7,7 @@ import CreateAccount from "../Form/CreateAccount";
 
 const Login = () => {
     const [openCard, SetOpenCard] = useState('LoginRegister');
+
     return (
         <>
             <div className="login">

@@ -2,10 +2,11 @@ import React from "react";
 import InputCustom from "../InputCuston";
 
 const LoginRegister = ({SetOpenCard}) => {
+
     return (
         <>
             <form action="" className="login__registre" id="login-in">
-                <h1 className="login__title">Sign In</h1>
+                <h1 className="login__title">Sign In Dojo Hyrule</h1>
 
                 <InputCustom
                     id={'Username'}
@@ -25,7 +26,7 @@ const LoginRegister = ({SetOpenCard}) => {
 
                 <p href="#" className="login__forgot">Forgot password?</p>
 
-                <p href="#" className="login__button">Sign In</p>
+                <p href="#" className="login__button" onClick={() => console.log('login action performed successfully')}>Login</p>
 
                 <div>
                     <span className="login__account">Don't have an Account? </span>
