@@ -13,7 +13,7 @@ const Login = () => {
             <div className="login">
                 <div className="login__content">
 
-                    <div className="login__img">
+                    <div className="login__img" data-testid="img-team-hyrule">
                         <img src={image} alt="Escudo do Time Hyrule"/>
                     </div>
 

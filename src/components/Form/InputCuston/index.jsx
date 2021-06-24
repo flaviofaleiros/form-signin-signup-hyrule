@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import {ErrorMessage, Field} from "formik";
 
-const InputCustom = ({Id, Label, type, placeholder}) => {
+const InputCustom = ({id, Label, type, placeholder}) => {
     return (
         <>
             <div className="label__box">
@@ -10,8 +11,13 @@ const InputCustom = ({Id, Label, type, placeholder}) => {
             </div>
 
             <div className="login__box">
-                <input id={Id} type={type} placeholder={placeholder} className="login__input"/>
+                <Field className="login__input" name={id} placeholder={placeholder} type={type}/>
             </div>
+            <ErrorMessage className="Form-Error" component="span" name={id}/>
+
+            {/*<div className="login__box">*/}
+            {/*    <input id={id} type={type} placeholder={placeholder} className="login__input"/>*/}
+            {/*</div>*/}
         </>
     );
 };

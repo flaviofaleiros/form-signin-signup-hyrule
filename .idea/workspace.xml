@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d024e807-6434-4560-96c2-ac52f234f958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Login/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/TextError/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/TextError/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/CreateAccount/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/CreateAccount/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/InputCuston/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/InputCuston/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Form/LoginRegistre/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/LoginRegistre/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/index.js" afterDir="false" />
     </list>
@@ -34,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Form" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,10 +48,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Form" />
       <recent name="$PROJECT_DIR$/src/components/Login" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
     </key>
@@ -53,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/components/Form" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Testing render component Login.should click Sign Up">
+  <component name="RunManager" selected="Jest.Testing render component Login.should render login title">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -90,15 +98,31 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Testing render component Login.should render login title" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="Testing render component Login" />
+        <test-name value="should render login title" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Testing render component Login" />
       <item itemvalue="Jest.Testing render component Login.should click Sign Up" />
+      <item itemvalue="Jest.Testing render component Login.should render login title" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Testing render component Login.should click Sign Up" />
+        <item itemvalue="Jest.Testing render component Login.should render login title" />
         <item itemvalue="Jest.Testing render component Login" />
+        <item itemvalue="Jest.Testing render component Login.should click Sign Up" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +137,10 @@
       <workItem from="1624134280830" duration="6909000" />
       <workItem from="1624147040047" duration="3345000" />
       <workItem from="1624319298269" duration="5638000" />
-      <workItem from="1624405337046" duration="3629000" />
+      <workItem from="1624405337046" duration="4147000" />
+      <workItem from="1624450734954" duration="599000" />
+      <workItem from="1624492337122" duration="5079000" />
+      <workItem from="1624553088394" duration="3021000" />
     </task>
     <servers />
   </component>
