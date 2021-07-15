@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d024e807-6434-4560-96c2-ac52f234f958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/CreateAccount/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/CreateAccount/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/InputCuston/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/InputCuston/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/LoginRegistre/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/LoginRegistre/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src/components/Form" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Testing render component Login.should render login title (1)">
+  <component name="RunManager" selected="Jest.testando tela de login.testando tela de cadastro.should test field">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -88,20 +93,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Testing render component Login.should click Sign Up" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="Testing render component Login" />
-        <test-name value="should click Sign Up" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Testing render component Login.should render login title (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -130,21 +121,36 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="testando tela de login.testando tela de cadastro.should test field" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="testando tela de login" />
+        <test-name value="testando tela de cadastro" />
+        <test-name value="should test field" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Testing render component Login" />
-      <item itemvalue="Jest.Testing render component Login.should click Sign Up" />
       <item itemvalue="Jest.Testing render component Login.should render login title" />
       <item itemvalue="Jest.Testing render component Login.should render login title (1)" />
       <item itemvalue="Jest.Testing render component Login (1)" />
+      <item itemvalue="Jest.testando tela de login.testando tela de cadastro.should test field" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.testando tela de login.testando tela de cadastro.should test field" />
         <item itemvalue="Jest.Testing render component Login.should render login title (1)" />
         <item itemvalue="Jest.Testing render component Login (1)" />
         <item itemvalue="Jest.Testing render component Login.should render login title" />
         <item itemvalue="Jest.Testing render component Login" />
-        <item itemvalue="Jest.Testing render component Login.should click Sign Up" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +169,7 @@
       <workItem from="1624450734954" duration="599000" />
       <workItem from="1624492337122" duration="5079000" />
       <workItem from="1624553088394" duration="4777000" />
+      <workItem from="1626307149029" duration="7499000" />
     </task>
     <servers />
   </component>

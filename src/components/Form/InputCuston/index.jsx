@@ -14,10 +14,6 @@ const InputCustom = ({id, Label, type, placeholder}) => {
                 <Field className="login__input" name={id} placeholder={placeholder} type={type}/>
             </div>
             <ErrorMessage className="Form-Error" component="span" name={id}/>
-
-            {/*<div className="login__box">*/}
-            {/*    <input id={id} type={type} placeholder={placeholder} className="login__input"/>*/}
-            {/*</div>*/}
         </>
     );
 };

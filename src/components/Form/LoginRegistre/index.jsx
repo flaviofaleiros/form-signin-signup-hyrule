@@ -20,7 +20,6 @@ const LoginRegister = ({SetOpenCard}) => {
         console.log('Login realizado com sucesso');
 
     }
-
     return (
         <>
             <Formik initialValues={initialValues} onSubmit={handleSubmit} validationSchema={validations}>
